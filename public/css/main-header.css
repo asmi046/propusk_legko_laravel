@@ -1,0 +1,36 @@
+body ul {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.header-logo img {
+    margin-right: 10px;
+}
+
+.header-logo p {
+    font-size: 27px;
+}
+
+
+.call-number {
+    font-size: 31px;
+}
+
+/* Мейн блок*/
+
+.main-page p {
+    font-size: 20px;
+}
+
+/* Кнопка */
+.btn {
+    background-color: #0068B5;
+    color: white;
+    font-size: 21px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}

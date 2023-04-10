@@ -1,0 +1,104 @@
+/*Общие стили для тегов*/
+
+body {
+    color:#161615;
+}
+
+/*Заголовки*/
+
+h1{
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+/*Ссылки*/
+
+a {
+    color:#161615;
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+/*Блоки*/
+
+section h2 {
+    margin: 0.7em 0;
+}
+
+.__container{
+    width:1440px;
+    margin: 0 auto;
+}
+
+/*Цвет фона*/
+
+.blue_bg {
+    background-color: #0081C8;
+}
+
+/*Цвет текста*/
+
+.blue_color {
+    color: #0068B5;
+}
+
+/*Флексы*/
+
+.d_flex{
+    display: flex;
+}
+
+.f_a_center {
+align-items: center;
+}
+
+.f_col{
+    flex-direction: column;
+}
+
+.f_1 {
+    flex:1
+}
+
+.f_2 {
+    flex:2
+}
+
+.f_4 {
+    flex:4
+}
+
+.jc_sb {
+    justify-content: space-between;
+}
+
+.f_wrap {
+    flex-wrap: wrap;
+}
+
+.f_gap_10 {
+    gap: 10px;
+}
+
+.f_gap_20 {
+    gap: 20px;
+}
+
+.f_gap_40 {
+    gap: 40px;
+}
+
+/* MARGIN */
+.m_b_40 {
+    margin-bottom: 40px;
+}
