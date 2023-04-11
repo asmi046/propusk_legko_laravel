@@ -8,15 +8,15 @@
     @vite([
         'resources/js/app.js',
         'resources/css/app.css',
-        'resources/css/null.css',
+        'public/css/null.css',
         'public/css/main.css',
         'public/css/main-header.css'
     ])
 </head>
 <body>
-    <section class="main-header">
+    <section class="main-header m_b_40">
         <div class="__container">
-        <div class="header d_flex jc_sb f_a_center m_b_40">
+        <div class="header d_flex jc_sb f_a_center">
             <div class="header-logo d_flex">
                 <img src="/img/main-logo.svg" alt="Логотип пропуск легко">
                 <p>ПРОПУСК<br>ЛЕГКО</p>
@@ -45,16 +45,35 @@
                 <a href="tel:88003223344" class="btn">Позвоните мне</a>
             </div>
         </div>
-        <div class="main-page">
+        </div>
+    </section>
+    <section class="main-block m_b_40">
+            <div class="__container">
+            <div class="main-page ">
             <h1>Пропуска в Москву<br>для грузового<br>транспорта</h1>
+            <div class="main-info d_flex f_col f_gap_40">
             <p>Помогаем оформлять дневные и ночные пропуска на МКАД,<br> ТТК и СК для грузовых автомобилей. Выдаем разрешения,<br> действующие 10 дней, 6 или 12 месяцев.
             </p>
             <p>
             Хотите получить разрешение на грузовой транспорт<br> максимально быстро? Оставьте заявку!
             </p>
             <a href="#" class="btn">Заказать пропуск</a>
+            </div>
         </div>
-        </div>
-    </section>
+            </div>
+        </section>
+
+        <section class="order-pass  m_b_40">
+            <div class="__container">
+                <div class="card-pass d_flex f_col">
+                    <h2 class="white_color">Проверьте Ваш пропуск</h2>
+                    <form action="#" class="pass-form d_flex m_b_22">
+                        <input type="text" value="Введите номер авто">
+                        <input type="submit" value="Заказать пропуск">
+                    </form>
+                    <p class="white_color">* Проверьте действие вашего пропуска в несколько кликов! Просто введите номерной знак транспортного средства и кликните по кнопке «Проверить».</p>
+                </div>
+            </div>
+        </section>
 </body>
 </html>

@@ -8,14 +8,16 @@ body {
 
 h1{
     font-size: 56px;
-    font-weight: 900;
+    font-weight: 100;
     line-height: 1;
+    margin: 36px 0 26px 0;
 }
 
 h2 {
     font-size: 44px;
-    font-weight: 900;
+    font-weight: 100;
     line-height: 1;
+    margin: 26px 0 40px 0; 
 }
 
 /*Ссылки*/
@@ -47,6 +49,10 @@ section h2 {
 }
 
 /*Цвет текста*/
+
+.white_color {
+    color:#ffff;
+}
 
 .blue_color {
     color: #0068B5;
@@ -101,4 +107,7 @@ align-items: center;
 /* MARGIN */
 .m_b_40 {
     margin-bottom: 40px;
+}
+.m_b_22 {
+    margin-bottom: 22px;
 }

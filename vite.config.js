@@ -7,7 +7,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css', 
                 'resources/js/app.js',
-                'resources/css/null.css',
+                'public/css/null.css',
                 'public/css/main.css',
                 'public/css/main-header.css'
             ],

@@ -5,12 +5,16 @@ body ul {
     list-style-type: none;
 }
 
+.header {
+    margin-top: 22px;
+}
 .header-logo img {
     margin-right: 10px;
 }
 
 .header-logo p {
     font-size: 27px;
+    line-height: 1;
 }
 
 
@@ -19,16 +23,83 @@ body ul {
 }
 
 /* Мейн блок*/
+.main-block {
+    position: relative;
+}
+.main-block::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 803px;
+    width: 1100px;
+    height: 470px;
+    background-image: url("../img/main-bg-r.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+.main-block::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 700px;
+    height: 470px;
+    background-image: url("../img/main-bg-l.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.main-page {
+    position: relative;
+    z-index: 2;
+}
 
 .main-page p {
     font-size: 20px;
 }
 
+/*Карточка с номером машины*/
+.card-pass {
+    padding: 25px 30px 31px 50px;
+    background: linear-gradient(to left,rgb(0, 154, 219) 20%, rgb(0, 104, 181) 100%);
+}
+.card-pass h2 {
+    margin-top: 0;
+}
+
+.pass-form {
+    justify-content: center;
+    margin-right: 60px;
+    gap: 10px;
+}
+
+.pass-form input {
+    background-color: white;
+    padding: 5px 0 5px 0;
+    border-radius: 21px;
+    box-shadow: 3px 3px  4px #004476;
+}
+
+.pass-form input:first-child {
+    flex: 4;
+    padding-left: 24px;
+}
+
+.pass-form input:last-child {
+    flex: 1;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.card-pass p {
+    font-size: 14px;
+}
 /* Кнопка */
 .btn {
-    background-color: #0068B5;
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
     color: white;
     font-size: 21px;
+    width: 256px;
     padding: 7px 25px;
     border-radius: 20px;
     display: inline-block;
