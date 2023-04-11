@@ -136,6 +136,24 @@ body ul {
     font-weight: 700;
 }
 
+
+/*Блок с СИСТЕМОЙ СКИДОК*/
+
+.discount-system h2 {
+    margin-bottom: 17px;
+}
+
+.discount-personal input:not(:last-child) {
+    background-color: #ffff;
+    color: #161615;
+    font-size: 16px;
+    height: 42px;
+    padding: 3px 25px;
+    border: 1px solid #D2D1D1;
+    border-radius: 20px;
+    display: inline-block;
+}
+
 /* Кнопка для ссылок*/
 .btn {
     background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
@@ -152,6 +170,7 @@ body ul {
     background-color: #ffff;
     color: #0068B5;
     font-size: 21px;
+    height: 42px;
     padding: 3px 33px;
     border: 1px solid #D2D1D1;
     border-radius: 20px;
