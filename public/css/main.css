@@ -96,8 +96,13 @@ align-items: center;
     gap: 10px;
 }
 
-.f_gap_20 {
-    gap: 20px;
+
+.f_gap_25 {
+    gap: 25px;
+}
+
+.f_gap_35 {
+    gap: 35px;
 }
 
 .f_gap_40 {

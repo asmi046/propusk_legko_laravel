@@ -75,5 +75,70 @@
                 </div>
             </div>
         </section>
+
+        <section class="type-pass m_b_40">
+            <div class="__container">
+                <h2>Выберите тип пропуска</h2>
+                <div class="type-category d_flex f_col f_gap_35">
+                    <div class="category-pass d_flex f_gap_25">
+                        <a href="#" class="btn-common btn-active">Дневной</a>
+                        <a href="#" class="btn-common">Ночной</a>
+                        <a href="#" class="btn-common">Круглосуточный</a>
+                    </div>
+                    <div class="category-card d_flex jc_sb f_gap_40">
+                        <div class="category-card__list">
+                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
+                            <form action="#" class="d_flex f_col f_gap_25">
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
+
+                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
+                                </div>
+                                
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="YearTime"/>
+                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
+                                </div>
+                                <input type="submit" value="Заказать пропуск" class="btn">
+                            </form>
+                        </div>
+
+                        <div class="category-card__list">
+                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
+                            <form action="#" class="d_flex f_col f_gap_25">
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
+
+                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
+                                </div>
+                                
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="YearTime"/>
+                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
+                                </div>
+                                <input type="submit" value="Заказать пропуск" class="btn">
+                            </form>
+                        </div>
+
+                        <div class="category-card__list">
+                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
+                            <form action="#" class="d_flex f_col f_gap_25">
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
+
+                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
+                                </div>
+                                
+                                <div class="category-card__list-price d_flex">
+                                <input type="radio" name="diurnalPass" value="YearTime"/>
+                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
+                                </div>
+                                <input type="submit" value="Заказать пропуск" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 </body>
 </html>
