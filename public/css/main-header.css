@@ -138,9 +138,16 @@ body ul {
 
 
 /*Блок с СИСТЕМОЙ СКИДОК*/
+.discount-system {
+    background-image: url("../img/bus.png");
+    background-repeat: no-repeat;
+    background-position-x: 1155px;
+    background-position-y: -30px
+}
 
 .discount-system h2 {
     margin-bottom: 17px;
+    
 }
 
 .discount-personal input:not(:last-child) {
@@ -152,6 +159,27 @@ body ul {
     border: 1px solid #D2D1D1;
     border-radius: 20px;
     display: inline-block;
+}
+
+/*Блок получения пропуска*/
+.howToGet-pass {
+    padding: 25px 30px 31px 50px;
+    background-color: #E6E6E6;
+    box-shadow: 3px 3px  4px #707070;
+}
+
+.howToGet-pass h2 {
+    margin-top: 0;
+}
+
+.get-pass__info-card p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.info-card__img-block {
+    margin-left: 25px;
+    margin-bottom: 14px;
 }
 
 /* Кнопка для ссылок*/

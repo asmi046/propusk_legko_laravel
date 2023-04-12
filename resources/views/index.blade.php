@@ -143,7 +143,7 @@
 
         <section class="discount-system m_b_40">
             <div class="__container">
-                    <h2>В нашей компании действует гибкая система скидок </h2>
+                    <h2>В нашей компании действует гибкая<br> система скидок </h2>
                     <p class="m_b_40">Оставьте заявку и наши менеджеры предложат Вам оптимальные условия сотрудничества</p>
                     <div class="discount-info d_flex f_col f_gap_35">
                         <div class="discount-choice__list d_flex f_gap_25">
@@ -162,5 +162,34 @@
                     </div>
             </div>
         </section>
+        
+        <section class="get-pass m_b_40">
+            <div class="__container">
+                <div class="howToGet-pass">
+                    <h2>Как получить пропуск</h2>
+                    <div class="get-pass__info d_flex jc_sb">
+                        <div class="get-pass__info-card">
+                            <div class="info-card__img-block">
+                                <img src="/img/icon-pad.svg" alt="Документы">
+                            </div>
+                            <p>Вы подготавливаете копии всех<br> необходимых документов: ВУ, ПТС, СТС, ДК</p>
+                        </div>
+                        <div class="get-pass__info-card">
+                            <div class="info-card__img-block">
+                                <img src="/img/icon-mail.svg" alt="Документы">
+                            </div>
+                            <p>Отправляете нам на почту<br> либо в мессенджер</p>
+                        </div>
+                        <div class="get-pass__info-card">
+                            <div class="info-card__img-block">
+                                <img src="/img/icon-persone.svg" alt="Документы">
+                            </div>
+                            <p>Получаете готовый<br> пропуск от 1 до 5 дней!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 </body>
 </html>

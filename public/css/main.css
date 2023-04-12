@@ -17,7 +17,8 @@ h2 {
     font-size: 44px;
     font-weight: 100;
     line-height: 1;
-    margin: 26px 0 40px 0; 
+    margin: 26px 0 40px 0;
+    padding: 10px 0;
 }
 
 /*Ссылки*/
