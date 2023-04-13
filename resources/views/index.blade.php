@@ -165,7 +165,7 @@
         
         <section class="get-pass m_b_40">
             <div class="__container">
-                <div class="howToGet-pass">
+                <div class="howToGet-pass gray_bg">
                     <h2>Как получить пропуск</h2>
                     <div class="get-pass__info d_flex jc_sb">
                         <div class="get-pass__info-card">
@@ -253,7 +253,36 @@
                         <p>Нарушая установленные правила, владелец грузовика будет оштрафован. Камеры, регистрирующие правонарушения, фиксируют номера авто и сверяют их с базой данных. Штрафы начисляются за каждое попадание номеров на камеру видеонаблюдения. За день можно получить неограниченное количество штрафов по 5000 рублей.</p>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="our-advantages m_b_40">
+            <div class="__container">
+                <div class="advantages gray_bg">
+                    <h2>Наши преимущества</h2>
+                    <div class="advantages-info d_flex jc_sb">
+                        <div class="advantages-info__list d_flex">
+                            <div class="list-number"><span>1</span></div>
+                            <div class="list-text">
+                                <p>Поможем оформить разовый пропуск за 2 дня</p>
+                            </div>
+                        </div>
+
+                        <div class="advantages-info__list d_flex">
+                            <div class="list-number"><span>2</span></div>
+                            <div class="list-text">
+                                <p>Работаем без предоплаты</p>
+                            </div>
+                        </div>
+
+                        <div class="advantages-info__list d_flex">
+                            <div class="list-number"><span>3</span></div>
+                            <div class="list-text">
+                                <p>Бесплатные разовые пропуска при заказе годового</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 </body>

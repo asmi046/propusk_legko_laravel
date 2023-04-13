@@ -160,8 +160,7 @@ body ul {
 
 /*Блок получения пропуска*/
 .howToGet-pass {
-    padding: 25px 50px 31px 50px;
-    background-color: #E6E6E6;
+    padding: 25px 50px 40px 50px;
     box-shadow: 3px 3px  4px #707070;
 }
 
@@ -231,7 +230,42 @@ height: 159px;
 }
 
 
+/*Блок наши преимущества*/
 
+.our-advantages {
+    
+}
+
+.our-advantages h2 {
+    margin-top: 0px;
+}
+
+.advantages {
+    padding:25px 50px 40px 50px;
+}
+
+.list-number {
+    width: 97px;
+    height: 97px;
+    margin-right: 10px;
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+    border-radius: 50px;
+}
+.list-number span{
+    position: relative;
+    top: -18px;
+    left: 25px;
+    font-size: 87px;
+    color:#ffff;
+}
+
+.list-text {
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+}
+.list-text p {
+    font-size: 24px;
+    color:#ffff;
+}
 /* Кнопка для ссылок*/
 .btn {
     background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
