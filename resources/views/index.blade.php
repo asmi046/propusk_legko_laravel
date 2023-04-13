@@ -86,7 +86,7 @@
                         <a href="#" class="btn-common">Круглосуточный</a>
                     </div>
                     <div class="category-card d_flex jc_sb f_gap_40">
-                        <div class="category-card__list">
+                        <div class="category-card__list border_block">
                             <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
                             <form action="#" class="d_flex f_col f_gap_25">
                                 <div class="category-card__list-price d_flex">
@@ -103,7 +103,7 @@
                             </form>
                         </div>
 
-                        <div class="category-card__list">
+                        <div class="category-card__list border_block">
                             <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
                             <form action="#" class="d_flex f_col f_gap_25">
                                 <div class="category-card__list-price d_flex">
@@ -120,7 +120,7 @@
                             </form>
                         </div>
 
-                        <div class="category-card__list">
+                        <div class="category-card__list border_block">
                             <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
                             <form action="#" class="d_flex f_col f_gap_25">
                                 <div class="category-card__list-price d_flex">
@@ -191,5 +191,70 @@
             </div>
         </section>
 
+        <section class="necessary-document m_b_40">
+            <div class="__container">
+                <h2>Список необходимых документов</h2>
+                <div class="need-document d_flex f_gap_30">
+                    <div class="need-document__list border_block d_flex f_col">
+                        <img src="/img/pts-img.png" alt="ПТС пример документа">
+                        <div class="need-document__list-info">
+                        <p><span class="list-info__abbr">ПТС</span></p>
+                        <p class="abbr-transcript">Паспорт технического средства</p>
+                        <p>Необходимо отсканировать обе стороны документа в развороте!</p>
+                        </div>
+                    </div>
+
+                    <div class="need-document__list border_block d_flex f_col">
+                        <img src="/img/sts-img.png" alt="СТС пример документа">
+                        <div class="need-document__list-info">
+                        <p><span class="list-info__abbr">СТС</span></p>
+                        <p class="abbr-transcript">Свидетельство о Регистрации Технического Средства</p>
+                        <p>Необходимо отсканировать обе стороны документа!</p>
+                        </div>
+                    </div>
+
+                    <div class="need-document__list border_block d_flex f_col">
+                        <img src="/img/diagnostic-img.png" alt="Диагностическая карта пример документа">
+                        <div class="need-document__list-info">
+                        <p><span class="list-info__abbr">Диагностическая Карта</span></p>
+                        <p class="abbr-transcript"></p>
+                        <p>У диагностической карты должен быть корректный срок действия</p>
+                        </div>
+                    </div>
+
+                    <div class="need-document__list border_block d_flex f_col">
+                        <img src="/img/driver_udost-img.png" alt="Водительское удостоверение пример документа">
+                        <div class="need-document__list-info">
+                        <p><span class="list-info__abbr">Водительское удостоверение</span></p>
+                        <p class="abbr-transcript"></p>
+                        <p>Необходимо отсканировать обе стороны документа</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="driving-rules m_b_40">
+            <div class="__container">
+                <h2>Правила проезда грузового транспорта на<br> территорию Москвы и области</h2>
+                <div class="rules-block d_flex jc_sb">
+                    <div class="rules-block__list d_flex f_col border_block">
+                        <img src="/img/1t-car.svg" alt="Грузовая машина свыше 1 тонны">
+                        <p>Транспорт с грузоподъемностью свыше 1 тонны не может заезжать в зону ТТК и СК с 7:00 до 23:00 ежедневно, необходим пропуск. Въезжать в эти зоны разрешено только автомобилям, чей экологический класс соответствует Евро 3, не ниже</p>      
+                    </div>
+
+                    <div class="rules-block__list d_flex f_col border_block">
+                        <img src="/img/3,5t-car.svg" alt="Грузовая машина свыше 1 тонны">
+                        <p>Если разрешенная масса грузового автомобиля выше 3.5 тонны, ему запрещается въезжать на МКАД с 7:00 до 23:00. При этом, экологический класс машины должен соответствовать Евро 2, не ниже.</p>
+                    </div>
+
+                    <div class="rules-block__list d_flex f_col border_block">
+                        <img src="/img/cctv.svg" alt="Грузовая машина свыше 1 тонны">
+                        <p>Нарушая установленные правила, владелец грузовика будет оштрафован. Камеры, регистрирующие правонарушения, фиксируют номера авто и сверяют их с базой данных. Штрафы начисляются за каждое попадание номеров на камеру видеонаблюдения. За день можно получить неограниченное количество штрафов по 5000 рублей.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 </body>
 </html>

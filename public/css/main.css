@@ -102,6 +102,10 @@ align-items: center;
     gap: 25px;
 }
 
+.f_gap_30 {
+    gap: 30px;
+}
+
 .f_gap_35 {
     gap: 35px;
 }
@@ -116,4 +120,11 @@ align-items: center;
 }
 .m_b_22 {
     margin-bottom: 22px;
+}
+
+/*Эффект рамки используется на 3 элементах*/
+.border_block {
+    border: 1px solid #D2D1D1;
+    border-radius: 22px;
+    box-shadow: 0 3px 3px -1px #707070;
 }
