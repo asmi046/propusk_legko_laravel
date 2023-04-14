@@ -22,15 +22,29 @@ body ul {
     background-size: cover;
     height: 470px;
 }
+.main-block > div {
+    position: relative;
+}
+
+.main-block >div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 650px;
+    width: 100px;
+    height: 471px;
+    background: white;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
 
 .h_text_blk {
     height: 100%;
     left:calc(50% - 790px);
     min-width: 200px;
-    max-width: 800px;
+    max-width: 650px;
     z-index: 1000;
     background: white;
-    padding: 0  60px 20px 70px;
+    padding: 0  0 20px 70px;
     justify-content: space-between;
 }
 
