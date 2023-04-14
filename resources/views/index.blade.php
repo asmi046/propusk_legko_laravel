@@ -14,7 +14,7 @@
     ])
 </head>
 <body>
-    <section class="main-header m_b_40">
+    <header class="main-header m_b_40">
         <div class="__container">
         <div class="header d_flex jc_sb f_a_center">
             <div class="header-logo d_flex">
@@ -46,7 +46,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </header>
     <section class="main-block m_b_40">
             <div class="__container">
             <div class="main-page ">
@@ -94,7 +94,7 @@
 
                                     <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
                                 </div>
-                                
+
                                 <div class="category-card__list-price d_flex">
                                 <input type="radio" name="diurnalPass" value="YearTime"/>
                                     <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
@@ -111,7 +111,7 @@
 
                                     <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
                                 </div>
-                                
+
                                 <div class="category-card__list-price d_flex">
                                 <input type="radio" name="diurnalPass" value="YearTime"/>
                                     <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
@@ -128,7 +128,7 @@
 
                                     <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
                                 </div>
-                                
+
                                 <div class="category-card__list-price d_flex">
                                 <input type="radio" name="diurnalPass" value="YearTime"/>
                                     <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
@@ -162,7 +162,7 @@
                     </div>
             </div>
         </section>
-        
+
         <section class="get-pass m_b_40">
             <div class="__container">
                 <div class="howToGet-pass gray_bg">
@@ -240,7 +240,7 @@
                 <div class="rules-block d_flex jc_sb">
                     <div class="rules-block__list d_flex f_col border_block">
                         <img src="/img/1t-car.svg" alt="Грузовая машина свыше 1 тонны">
-                        <p>Транспорт с грузоподъемностью свыше 1 тонны не может заезжать в зону ТТК и СК с 7:00 до 23:00 ежедневно, необходим пропуск. Въезжать в эти зоны разрешено только автомобилям, чей экологический класс соответствует Евро 3, не ниже</p>      
+                        <p>Транспорт с грузоподъемностью свыше 1 тонны не может заезжать в зону ТТК и СК с 7:00 до 23:00 ежедневно, необходим пропуск. Въезжать в эти зоны разрешено только автомобилям, чей экологический класс соответствует Евро 3, не ниже</p>
                     </div>
 
                     <div class="rules-block__list d_flex f_col border_block">
