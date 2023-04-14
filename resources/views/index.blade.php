@@ -18,7 +18,7 @@
     <x-header></x-header>
 
     <section class="main-block m_b_40">
-            <div class="__container">
+        <div class="__container">
             <div class="main-page ">
             <h1>Пропуска в Москву<br>для грузового<br>транспорта</h1>
             <div class="main-info d_flex f_col f_gap_40">
@@ -31,7 +31,7 @@
             </div>
         </div>
             </div>
-        </section>
+    </section>
 
         <section class="order-pass  m_b_40">
             <div class="__container">
