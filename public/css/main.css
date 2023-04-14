@@ -161,6 +161,10 @@ align-items: center;
     margin-bottom: 22px;
 }
 
+.p_y_40 {
+    padding: 40px 0;
+}
+
 /*Эффект рамки используется на 3 элементах*/
 .border_block {
     border: 1px solid #D2D1D1;

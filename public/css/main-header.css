@@ -5,9 +5,7 @@ body ul {
     list-style-type: none;
 }
 
-.header {
-    margin-top: 22px;
-}
+
 .header-logo img {
     margin-right: 10px;
 }
@@ -144,7 +142,7 @@ body ul {
 
 .discount-system h2 {
     margin-bottom: 17px;
-    
+
 }
 
 .discount-personal input:not(:last-child) {
@@ -233,7 +231,7 @@ height: 159px;
 /*Блок наши преимущества*/
 
 .our-advantages {
-    
+
 }
 
 .our-advantages h2 {
