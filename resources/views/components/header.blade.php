@@ -1,9 +1,8 @@
 <header class="p_y_20">
     <div class="__container">
     <div class="header d_flex jc_sb f_a_center">
-        <div class="header-logo d_flex">
+        <div class="header-logo">
             <img src="/img/main-logo.svg" alt="Логотип пропуск легко">
-            <p>ПРОПУСК<br>ЛЕГКО</p>
         </div>
         <div class="header-nav">
             <ul class="nav-menu d_flex f_gap_40">
