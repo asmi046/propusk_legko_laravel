@@ -24,12 +24,23 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Lato";
   src: url("../fonts/Lato-Heavy.eot");
   src: local("☺"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg") format("svg");
   font-weight: 900;
   font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+        url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Black.woff') format('woff'),
+        url('../fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
 }
 
 
@@ -44,7 +55,7 @@ body {
 
 h1{
     font-size: 56px;
-    font-weight: 100;
+    font-weight: 900;
     line-height: 1;
     margin: 36px 0 26px 0;
 }
