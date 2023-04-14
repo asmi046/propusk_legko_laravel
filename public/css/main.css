@@ -24,13 +24,6 @@
   font-style: normal;
 }
 
-/* @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Heavy.eot");
-  src: local("☺"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg") format("svg");
-  font-weight: 900;
-  font-style: normal;
-} */
 
 @font-face {
     font-family: 'Lato';
@@ -62,7 +55,7 @@ h1{
 
 h2 {
     font-size: 44px;
-    font-weight: 100;
+    font-weight: 600;
     line-height: 1;
     margin: 26px 0 40px 0;
     padding: 10px 0;
@@ -174,6 +167,61 @@ align-items: center;
 
 .p_y_20 {
     padding: 20px 0;
+}
+
+.p_y_80 {
+    padding: 80px 0;
+}
+.p_t_80 {
+    padding-top: 80px;
+}
+
+.pos_rel{
+    position: relative;
+}
+
+.pos_abs{
+    position: absolute;
+}
+
+
+/* Кнопка для ссылок*/
+.btn {
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+    color: white;
+    font-size: 21px;
+    width: 256px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+/*Общая нопка для товаров и категорий*/
+.btn-common {
+    background-color: #ffff;
+    color: #0068B5;
+    font-size: 21px;
+    height: 42px;
+    padding: 3px 33px;
+    border: 1px solid #D2D1D1;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.btn-common:hover {
+    text-decoration: none;
+}
+.btn-active {
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+    color: #FFFFFF;
+}
+
+
+.btn-common:hover,
+.btn-common.active,
+.gradient {
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+    color:white;
 }
 
 /*Эффект рамки используется на 3 элементах*/

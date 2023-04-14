@@ -17,38 +17,23 @@ body ul {
 /* Мейн блок*/
 .main-block {
     position: relative;
-}
-.main-block::after {
-    content: "";
-    position: absolute;
-    top:0;
-    left: 803px;
-    width: 1100px;
-    height: 470px;
-    background-image: url("../img/main-bg-r.jpg");
+    background-image: url("../img/hbg.webp");
     background-repeat: no-repeat;
-    z-index: 1;
-
-}
-.main-block::before {
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 700px;
+    background-size: cover;
     height: 470px;
-    background-image: url("../img/main-bg-l.jpg");
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-.main-page {
-    position: relative;
-    z-index: 2;
 }
 
-.main-page p {
-    font-size: 20px;
+.h_text_blk {
+    height: 100%;
+    left:calc(50% - 790px);
+    min-width: 200px;
+    max-width: 800px;
+    z-index: 1000;
+    background: white;
+    padding: 0  60px 20px 70px;
+    justify-content: space-between;
 }
+
 
 /*Карточка с номером машины*/
 .card-pass {
@@ -88,9 +73,18 @@ body ul {
 }
 
 /*Блок с ВЫБОРОМ ТИПА ПРОПУСКА*/
+
+
 .category-card__list {
     flex: 1;
-    padding: 10px 0px 35px 25px;
+    padding: 10px 0px 35px 60px;
+}
+
+.category-card__list hr{
+    width: 130px;
+    height: 1px;
+    border: none;
+    margin-left: 0;
 }
 
 .category-card__list input[type="radio"] {
@@ -104,9 +98,6 @@ body ul {
 .category-card__list-day {
     position: relative;
     font-size: 27px;
-    border-bottom: 1px solid #0068B5;
-    margin-left: 38px;
-    margin-bottom: 25px;
 }
 
 .card__list-abbr {
@@ -117,6 +108,31 @@ body ul {
 .category-card__list-price {
     gap:18px;
 }
+
+.category-card__list-price input:checked ~ div::before {
+    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+}
+
+.category-card__list-price > div {
+    position: relative;
+}
+
+.category-card__list-price > div::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #D2D1D1;
+    position: absolute;
+    left: -35px;
+    top:2px
+}
+
+.category-card__list-price input[type="radio"]{
+    display: none;
+}
+
+
 .category-card__list-price label {
     font-size: 20px;
 }
@@ -258,33 +274,9 @@ height: 159px;
     font-size: 24px;
     color:#ffff;
 }
-/* Кнопка для ссылок*/
-.btn {
-    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
-    color: white;
-    font-size: 21px;
-    width: 256px;
-    padding: 7px 25px;
-    border-radius: 20px;
-    display: inline-block;
-    text-align: center;
-}
-/*Общая нопка для товаров и категорий*/
-.btn-common {
-    background-color: #ffff;
-    color: #0068B5;
-    font-size: 21px;
-    height: 42px;
-    padding: 3px 33px;
-    border: 1px solid #D2D1D1;
-    border-radius: 20px;
-    display: inline-block;
-    text-align: center;
-}
-.btn-common:hover {
-    text-decoration: none;
-}
-.btn-active {
-    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
-    color: #FFFFFF;
+
+.get-pass__info-card {
+    flex:1;
+    display: flex;
+    flex-direction: column;
 }

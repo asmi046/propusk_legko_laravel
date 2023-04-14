@@ -17,96 +17,45 @@
 
     <x-header></x-header>
 
-    <section class="main-block m_b_40">
-        <div class="__container">
-            <div class="main-page ">
+    <section class="main-block pos_rel">
+        <div class="h_text_blk pos_abs d_flex f_col">
             <h1>Пропуска в Москву<br>для грузового<br>транспорта</h1>
-            <div class="main-info d_flex f_col f_gap_40">
-            <p>Помогаем оформлять дневные и ночные пропуска на МКАД,<br> ТТК и СК для грузовых автомобилей. Выдаем разрешения,<br> действующие 10 дней, 6 или 12 месяцев.
-            </p>
-            <p>
-            Хотите получить разрешение на грузовой транспорт<br> максимально быстро? Оставьте заявку!
-            </p>
+            <p>Помогаем оформлять дневные и ночные пропуска на МКАД,<br> ТТК и СК для грузовых автомобилей. Выдаем разрешения,<br> действующие 10 дней, 6 или 12 месяцев.</p>
+            <p>Хотите получить разрешение на грузовой транспорт<br> максимально быстро? Оставьте заявку!</p>
+
             <a href="#" class="btn">Заказать пропуск</a>
-            </div>
         </div>
-            </div>
     </section>
 
-        <section class="order-pass  m_b_40">
-            <div class="__container">
-                <div class="card-pass d_flex f_col">
-                    <h2 class="white_color">Проверьте Ваш пропуск</h2>
-                    <form action="#" class="pass-form d_flex m_b_22">
-                        <input type="text" placeholder="Введите номер авто" value="">
-                        <input type="submit" value="Заказать пропуск">
-                    </form>
-                    <p class="white_color">* Проверьте действие вашего пропуска в несколько кликов! Просто введите номерной знак транспортного средства и кликните по кнопке «Проверить».</p>
-                </div>
+    <section class="order-pass p_t_80">
+        <div class="__container">
+            <div class="card-pass white_color d_flex f_col">
+                <h2>Проверьте Ваш пропуск</h2>
+                <form action="#" class="pass-form d_flex m_b_22">
+                    <input type="text" placeholder="Введите номер авто" value="">
+                    <input type="submit" value="Заказать пропуск">
+                </form>
+                <p>* Проверьте действие вашего пропуска в несколько кликов! Просто введите номерной знак транспортного средства и кликните по кнопке «Проверить».</p>
             </div>
-        </section>
+        </div>
+    </section>
 
         <section class="type-pass m_b_40">
             <div class="__container">
                 <h2>Выберите тип пропуска</h2>
                 <div class="type-category d_flex f_col f_gap_35">
                     <div class="category-pass d_flex f_gap_25">
-                        <a href="#" class="btn-common btn-active">Дневной</a>
-                        <a href="#" class="btn-common">Ночной</a>
+                        <a href="#" class="btn-common active">Дневной</a>
+                        <a href="#" class="btn-common ">Ночной</a>
                         <a href="#" class="btn-common">Круглосуточный</a>
                     </div>
+
                     <div class="category-card d_flex jc_sb f_gap_40">
-                        <div class="category-card__list border_block">
-                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
-                            <form action="#" class="d_flex f_col f_gap_25">
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
-
-                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
-                                </div>
-
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="YearTime"/>
-                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
-                                </div>
-                                <input type="submit" value="Заказать пропуск" class="btn">
-                            </form>
-                        </div>
-
-                        <div class="category-card__list border_block">
-                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
-                            <form action="#" class="d_flex f_col f_gap_25">
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
-
-                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
-                                </div>
-
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="YearTime"/>
-                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
-                                </div>
-                                <input type="submit" value="Заказать пропуск" class="btn">
-                            </form>
-                        </div>
-
-                        <div class="category-card__list border_block">
-                            <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
-                            <form action="#" class="d_flex f_col f_gap_25">
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="OneTime" checked/>
-
-                                    <div><label for="OneTime">Разовый / срок изготовления 2 дня<br> <span class="card__list-price">5 000 руб</span></label></div>
-                                </div>
-
-                                <div class="category-card__list-price d_flex">
-                                <input type="radio" name="diurnalPass" value="YearTime"/>
-                                    <div><label for="YearTime">На год / срок изготовления 10 дней<br><span class="card__list-price">13 000 руб</span></label></div>
-                                </div>
-                                <input type="submit" value="Заказать пропуск" class="btn">
-                            </form>
-                        </div>
+                        @for ($i=0; $i<3; $i++)
+                            <x-prop-type></x-prop-type>
+                        @endfor
                     </div>
+
                 </div>
             </div>
         </section>
