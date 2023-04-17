@@ -355,3 +355,176 @@ height: 159px;
 .contacts_blk h2{
     margin: 0 0 20px 0;
 }
+
+@media (max-width: 1480px) {
+    .__container {
+        width: 99%;
+        padding:0 1%;
+    }
+    .h_text_blk {
+        left: 0;
+    }
+    .discount-system {
+        background-position-x: 830px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .h_text_blk {
+        padding: 0 1%;
+    }
+
+    /*Общий паддинг*/
+    .p_t_80 {
+        padding-top: 45px;
+    }
+
+    .need-document {
+        gap: 10px;
+    }
+
+    .need-document__list-info {
+        padding: 20px 10px 30px 10px;
+    }
+
+    .rules-block {
+        gap: 10px;
+    }
+
+    .rules-block__list {
+        padding: 0 15px;
+    }
+
+    .list-number span {
+        top: -8px;
+        left: 26px;
+        font-size: 80px;
+    }
+    
+    .list-text p {
+        font-size: 20px;
+    }
+
+    .contacts_blk {
+        left: 10px;
+        top: 8px;
+    }
+}
+
+@media (min-width: 374px ) and (max-width: 950px) {
+
+    .__container {
+        max-width: 99%;
+        padding: 0 1%;
+    }
+
+    .header {
+        align-items: normal;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    .header-call {
+        flex-direction: column;
+        gap: 0;
+    }
+    .main-block >div::after {
+        display: none;
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        line-height: 1.2;
+        font-size: 36px;
+    }
+
+    .card-pass {
+        padding: 30px 5px;
+    }
+
+    .areas-districts__group {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .pass-form {
+        flex-direction: column;
+        margin: 0 5% 5% 5%;
+    }
+    section h2 {
+        margin: 0.7em 0.5rem;
+    }
+
+    .category-pass {
+        flex-direction: column;
+        gap:10;
+    }
+
+    .category-card {
+        flex-direction: column;
+    }
+    
+    .discount-choice__list {
+        flex-direction: column;
+    }
+
+    .discount-personal__form {
+        flex-direction: column;
+    }
+
+    .discount-personal__form .btn {
+        margin: 0 auto;
+    }
+
+    .howToGet-pass {
+        padding: 25px 10px 25px 10px;
+    }
+
+    .get-pass__info {
+        flex-direction: column;
+    }
+
+    .get-pass__info-card .arrow {
+        display: none;
+    }
+
+    .get-pass__info-card .top {
+        justify-content: center;
+    }
+
+    .get-pass__info-card p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .need-document {
+        flex-direction: column;
+       
+    }
+
+    .need-document__list {
+        flex:none;
+        max-width: 337px;
+        margin: 0 auto;
+    }
+
+    .rules-block {
+        flex-direction: column;
+    }
+    .advantages {
+        padding: 25px 10px 40px 10px
+    }
+    .advantages-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
