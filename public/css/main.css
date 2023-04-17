@@ -108,6 +108,10 @@ section h2 {
     display: flex;
 }
 
+.f_wrap{
+    flex-wrap: wrap;
+}
+
 .f_a_center {
 align-items: center;
 }
