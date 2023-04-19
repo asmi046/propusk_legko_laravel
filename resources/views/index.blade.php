@@ -13,12 +13,15 @@
         'resources/css/app.css',
         'public/css/null.css',
         'public/css/main.css',
-        'public/css/main-header.css'
+        'public/css/main-header.css',
+        'public/js/menu.js',
+        'public/css/menu.css'
     ])
 </head>
 <body>
 
     <x-header></x-header>
+    <x-menu></x-menu>
     <x-banner></x-banner>
     <x-propusc-check></x-propusc-check>
     <x-propusc-type></x-propusc-type>
