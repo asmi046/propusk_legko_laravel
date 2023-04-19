@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <meta name="_token" content="{{ csrf_token() }}">
     <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
     @vite([
@@ -21,6 +22,9 @@
 <body>
 
     <x-header></x-header>
+    <div id="windowsApp">
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="consultMsg" title="Помощь специалиста" subtitle="Оставьте контактные данные и наши специалисты помогут оформить пропуск" ></modal-window>
+    </div>
     <x-menu></x-menu>
     <x-banner></x-banner>
     <x-propusc-check></x-propusc-check>
