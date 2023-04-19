@@ -72,6 +72,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.max_w_256 {
+    max-width: 256px;
+}
+
+.max_w_256 {
+    max-width: 256px;
+}
+
 /*Блоки*/
 
 section h2 {
@@ -190,11 +198,12 @@ align-items: center;
 
 
 /* Кнопка для ссылок*/
+
+
 .btn {
     background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
     color: white;
     font-size: 21px;
-    width: 256px;
     padding: 7px 25px;
     border-radius: 20px;
     display: inline-block;
@@ -226,6 +235,13 @@ align-items: center;
 .gradient {
     background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
     color:white;
+}
+
+.btn_empty {
+    background: white;
+    color: black;
+    padding-left:25px!important;
+    padding-right:25px!important;
 }
 
 /*Эффект рамки используется на 3 элементах*/

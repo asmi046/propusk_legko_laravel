@@ -27,6 +27,13 @@
             <a href="tel:88003223344" class="call-number blue_color">8 800 322 33 44</a>
             <a href="tel:88003223344" class="btn">Позвоните мне</a>
         </div>
+
+        <div class="icon-menu toggle_menu" aria-label="Бургер меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
     </div>
     </div>
 </header>

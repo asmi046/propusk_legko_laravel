@@ -14,6 +14,6 @@
             <div><div for="OneTime">Разовый / срок изготовления 10 дней<br> <span class="card__list-price">13 000 руб</span></div></div>
         </label>
 
-        <input type="submit" value="Заказать пропуск" class="btn">
+        <input type="submit" value="Заказать пропуск" class="btn max_w_256">
     </form>
 </div>

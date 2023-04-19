@@ -5,6 +5,9 @@ body ul {
     list-style-type: none;
 }
 
+input {
+    min-height: 41px;
+}
 
 .header-logo {
     width:170px;
@@ -259,6 +262,7 @@ height: 159px;
 
 .rules-block__list {
     padding: 0 30px;
+    width:32%;
 }
 
 .rules-block__list img {
@@ -356,6 +360,64 @@ height: 159px;
     margin: 0 0 20px 0;
 }
 
+/* Иконка меню */
+
+.icon-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 31.8px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 31.8px;
+            flex: 0 0 31.8px;
+    height: 23.2px;
+    cursor: pointer;
+    z-index: 5;
+    display: none;
+  }
+
+  .icon-menu span {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #0068B5;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .icon-menu span:first-child {
+    top: 0px;
+  }
+
+  .icon-menu span:last-child {
+    top: auto;
+    bottom: 0px;
+  }
+
+  .icon-menu.active span {
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  .icon-menu.active span:first-child {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 9px;
+  }
+
+  .icon-menu.active span:last-child {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    bottom: 12px;
+  }
+
+/* Иконка меню end */
+
 @media (max-width: 1480px) {
     .__container {
         width: 99%;
@@ -367,12 +429,23 @@ height: 159px;
     .discount-system {
         background-position-x: 830px;
     }
+
+    .contacts_blk {
+        left: calc(50% - 680px);
+    }
+}
+
+@media (max-width: 1280px) {
+    .contacts_blk {
+        left: calc(50% - 600px);
+    }
+    .category-card {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 1080px) {
     .header {
-        flex-direction: column;
-        gap: 10px;
     }
     .h_text_blk {
         padding: 0 1%;
@@ -384,7 +457,13 @@ height: 159px;
     }
 
     .need-document {
-        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .need-document__list {
+        width:30%;
+        flex: initial;
     }
 
     .need-document__list-info {
@@ -404,7 +483,7 @@ height: 159px;
         left: 26px;
         font-size: 80px;
     }
-    
+
     .list-text p {
         font-size: 20px;
     }
@@ -413,27 +492,67 @@ height: 159px;
         left: 10px;
         top: 8px;
     }
+
+    .header-call {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .call-number {
+        font-size: 26px;
+    }
+
+    .pass-form {
+        margin-right: 0;
+    }
+
+    .category-card {
+        flex-wrap: wrap;
+    }
+
+    .category-card__list {
+        flex: auto;
+        min-width: 250px;
+    }
+
+    .discount-system {
+        background-position-x: 720px;
+    }
+
+    .advantages-info {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages-info__list {
+        min-width: 50%;
+        margin: 10px 0;
+    }
+
+    .get-pass__info-card p {
+        max-width: 300px;
+    }
 }
 
-@media (min-width: 374px ) and (max-width: 950px) {
+@media (max-width: 950px) {
 
     .__container {
-        max-width: 99%;
+        max-width: 98%;
         padding: 0 1%;
     }
 
     .header {
         align-items: normal;
     }
-    
+
     .nav-menu {
         flex-direction: column;
         gap: 12px;
         align-items: center;
     }
     .header-call {
-        flex-direction: column;
-        gap: 0;
+        display: none;
+
     }
     .main-block >div::after {
         display: none;
@@ -458,8 +577,13 @@ height: 159px;
 
     .pass-form {
         flex-direction: column;
-        margin: 0 5% 5% 5%;
+        margin: 0 0.5rem 5% 0.5rem;
     }
+
+    .card-pass p {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
     section h2 {
         margin: 0.7em 0.5rem;
     }
@@ -472,7 +596,7 @@ height: 159px;
     .category-card {
         flex-direction: column;
     }
-    
+
     .discount-choice__list {
         flex-direction: column;
     }
@@ -491,6 +615,7 @@ height: 159px;
 
     .get-pass__info {
         flex-direction: column;
+        gap: 20px;
     }
 
     .get-pass__info-card .arrow {
@@ -503,28 +628,149 @@ height: 159px;
 
     .get-pass__info-card p {
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
     }
 
     .need-document {
-        flex-direction: column;
-       
+
     }
 
     .need-document__list {
-        flex:none;
-        max-width: 337px;
-        margin: 0 auto;
+        width:46%;
+
     }
 
     .rules-block {
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap:30px;
     }
+
+    .rules-block__list {
+        width:46%;
+
+    }
+
     .advantages {
         padding: 25px 10px 40px 10px
     }
     .advantages-info {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    header{
+        box-shadow: 0px 2px 7px -2px #707070;
+        position: sticky;
+        top:0;
+        background-color: white;
+        z-index: 100000;
+    }
+
+    .main-block {
+        display: flex;
+        background-position: right center;
+    }
+
+    .h_text_blk {
+        height: 80%;
+        padding:  30px 20px;
+        margin: auto auto auto 0;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: 32px;
+    }
+
+    .get-pass__info-card p {
+        max-width: unset;
+    }
+
+    .get-pass__info-card{
+        flex-direction: row;
+    }
+
+    .get-pass__info-card .top {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    #map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts_blk {
+        position: relative;
+        top:unset;
+        left:unset;
+        width: 96%;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .h_text_blk {
+        height: auto;
+    }
+
+    .h_text_blk p{
+        margin: 0.7em 0;
+    }
+
+    .h_text_blk p br{
+        display: none;
+    }
+
+    .get-pass__info-card .top {
+        width:80px;
+        min-width:80px;
+    }
+
+    .need-document__list {
+        width: 100%;
+    }
+    .rules-block__list {
+        width: 100%;
+    }
+
+    header {
+        padding: 10px 0!important;
+    }
+}
+
+@media (max-width: 340px) {
+    .category-card__list {
+        padding: 10px 10px 35px 40px;
+    }
+
+    .category-card__list-day {
+        font-size: 24px;
+    }
+
+
+    .category-card__list-price > div::before {
+        content: "";
+        left: -25px;
+    }
+
+    .list-text {
+        width: 75%;
+    }
+
+    .list-text p {
+        font-size: 18px;
     }
 }
