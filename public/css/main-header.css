@@ -234,10 +234,11 @@ input {
     line-height: 1;
 }
 
-.need-document__list img {
-width: 337px;
-height: 159px;
+.need-document__list-wrapper img{
+    object-fit: contain;
+    object-position: top;
 }
+
 
 .need-document__list-info {
     padding: 20px 20px 30px 20px;
@@ -445,8 +446,7 @@ height: 159px;
 }
 
 @media (max-width: 1080px) {
-    .header {
-    }
+    
     .h_text_blk {
         padding: 0 1%;
     }
@@ -633,9 +633,7 @@ height: 159px;
         text-align: left;
     }
 
-    .need-document {
-
-    }
+  
 
     .need-document__list {
         width:46%;
