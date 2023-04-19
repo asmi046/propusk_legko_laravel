@@ -4,7 +4,7 @@
         <div class="need-document d_flex f_gap_30">
             <div class="need-document__list border_block d_flex f_col">
                 <div class="need-document__list-wrapper">
-                <img src="/img/pts-img.png" alt="ПТС пример документа">
+                <img src="/img/pts-img.webp" alt="ПТС пример документа">
                 </div> 
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">ПТС</span></p>
@@ -15,7 +15,7 @@
 
             <div class="need-document__list border_block d_flex f_col">
             <div class="need-document__list-wrapper">
-            <img src="/img/sts-img.png" alt="СТС пример документа">
+            <img src="/img/sts-img.webp" alt="СТС пример документа">
             </div>
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">СТС</span></p>
@@ -26,7 +26,7 @@
 
             <div class="need-document__list border_block d_flex f_col">
             <div class="need-document__list-wrapper">
-            <img src="/img/diagnostic-img.png" alt="Диагностическая карта пример документа">
+            <img src="/img/diagnostic-img.webp" alt="Диагностическая карта пример документа">
             </div>
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">Диагностическая Карта</span></p>
@@ -37,7 +37,7 @@
 
             <div class="need-document__list border_block d_flex f_col">
             <div class="need-document__list-wrapper">
-            <img src="/img/driver_udost-img.png" alt="Водительское удостоверение пример документа">
+            <img src="/img/driver_udost-img.webp" alt="Водительское удостоверение пример документа">
             </div>           
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">Водительское удостоверение</span></p>

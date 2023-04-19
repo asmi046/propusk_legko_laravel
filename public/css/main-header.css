@@ -161,7 +161,7 @@ input {
 
 /*Блок с СИСТЕМОЙ СКИДОК*/
 .discount-system {
-    background-image: url("../img/bus.png");
+    background-image: url("../img/bus.webp");
     background-repeat: no-repeat;
     background-position-x: 1155px;
     background-position-y: -30px
@@ -235,6 +235,7 @@ input {
 }
 
 .need-document__list-wrapper img{
+    width: 100%;
     object-fit: contain;
     object-position: top;
 }
