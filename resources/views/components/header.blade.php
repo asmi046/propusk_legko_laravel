@@ -10,8 +10,8 @@
             </ul>
         </div>
         <div class="header-call d_flex f_a_center f_gap_40">
-            <a href="tel:88003223344" class="call-number blue_color">8 800 322 33 44</a>
-            <a href="tel:88003223344" class="btn">Позвоните мне</a>
+            <a href="tel:{{str_replace(['(',')',' '], '',Config::get('contact.phone'))}}" class="call-number blue_color">{{Config::get('contact.phone')}}</a>
+            <a href="#recollMsg" class="btn">Позвоните мне</a>
         </div>
 
         <div class="icon-menu toggle_menu" aria-label="Бургер меню">

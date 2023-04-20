@@ -9,6 +9,14 @@ input {
     min-height: 41px;
 }
 
+header {
+    box-shadow: 0px 2px 7px -2px #707070;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 100000;
+}
+
 .header-logo {
     width:170px;
 }
@@ -447,7 +455,7 @@ input {
 }
 
 @media (max-width: 1080px) {
-    
+
     .h_text_blk {
         padding: 0 1%;
     }
@@ -634,7 +642,7 @@ input {
         text-align: left;
     }
 
-  
+
 
     .need-document__list {
         width:46%;
@@ -669,13 +677,7 @@ input {
         margin-bottom: auto;
     }
 
-    header{
-        box-shadow: 0px 2px 7px -2px #707070;
-        position: sticky;
-        top:0;
-        background-color: white;
-        z-index: 100000;
-    }
+
 
     .main-block {
         display: flex;

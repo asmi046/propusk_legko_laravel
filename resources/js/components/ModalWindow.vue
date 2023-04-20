@@ -6,7 +6,6 @@
             <p class="sub_h">{{subtitle}}</p>
             <form class="sending_form" action="/send_consult" method="POST">
                 <input type="hidden" name="_token" :value="_token">
-                <p class ="msg_subjecrt"><strong>Тема обращения: </strong>{{(subject == null)?"общие вопросы":subject}}</p>
                 <input class="h-10 rounded-lg border px-3 border-cborder bg-cfill" type="text" name="name" v-model="name" placeholder="Имя">
                 <input class="h-10 rounded-lg border px-3 border-cborder bg-cfill" type="text" name="phone" v-model="phone" placeholder="Телефон*">
                 <div class="error_list_wrap">
@@ -136,6 +135,12 @@ export default {
         margin: 0 0 20px 0;
     }
 
+    .sending_form input{
+        border:1px solid #D2D1D1;
+        border-radius: 50px;
+        padding: 0 20px 0 20px;
+    }
+
     .policy_descr a{
         text-decoration: underline;
     }
@@ -162,7 +167,8 @@ export default {
         font-size: 48px;
         font-weight: bold;
         line-height: 1;
-        padding:  0 0 1em 0;
+        padding:  0 0 0.5em 0;
+        margin: 0;
     }
 
     .policy_descr {
