@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+@extends('layouts.all')
 
-    <meta name="_token" content="{{ csrf_token() }}">
-    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+@php
+    $title = "Пропуск ЛЕГКО - помощь в оформлении пропусков на МКАД, ТТК, СК";
+    $description = "Пропуск ЛЕГКО - помощь в оформлении пропусков на МКАД, ТТК, СК. Защита от аннуляции. Гарантия получения";
+@endphp
 
-    @vite([
-        'resources/js/app.js',
-        'resources/css/app.css',
-        'public/css/null.css',
-        'public/css/main.css',
-        'public/css/main-header.css',
-        'public/js/menu.js',
-        'public/css/menu.css'
-    ])
-</head>
-<body>
+@section('title', $title)
+@section('description', $description)
+
+@section('content')
 
     <x-header></x-header>
     <div id="windowsApp">
@@ -92,5 +81,4 @@
         </div>
     </section>
 
-</body>
-</html>
+@endsection
