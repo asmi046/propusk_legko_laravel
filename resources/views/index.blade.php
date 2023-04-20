@@ -13,6 +13,7 @@
     <x-header></x-header>
     <div id="windowsApp">
         <modal-window rout="/send_consult" redirect="/thencs" hesh="consultMsg" title="Помощь специалиста" subtitle="Оставьте контактные данные и наши специалисты помогут оформить пропуск" ></modal-window>
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="recollMsg" title="Заказ обратного звонка" subtitle="Оставьте контактные данные и наши специалисты помогут оформить пропуск" ></modal-window>
     </div>
     <x-menu></x-menu>
     <x-banner></x-banner>
@@ -25,7 +26,7 @@
     <x-advantages></x-advantages>
 
 
-    <script>
+    <script>modal
 
         function initMap () {
             var myMap = new ymaps.Map("map", {
