@@ -26,7 +26,7 @@
     <x-advantages></x-advantages>
 
 
-    <script>modal
+    <script>
 
         function initMap () {
             var myMap = new ymaps.Map("map", {
