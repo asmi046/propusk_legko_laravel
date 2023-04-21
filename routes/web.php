@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 
+use App\Http\Controllers\SenderController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +17,7 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, "index"])->name("home");
+
+Route::get('/thencs', [SenderController::class, "show_thencs"])->name('thencs');
+Route::post('/send_consult', [SenderController::class, "send_consultation"])->name('send_consultation');
+
