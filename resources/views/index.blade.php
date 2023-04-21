@@ -27,11 +27,13 @@
 
 
     <script>
+        const coord = {{Config::get('contact.coord')}}
+        const hint = "{{Config::get('contact.maptext')}}"
 
         function initMap () {
             var myMap = new ymaps.Map("map", {
                 // Координаты центра карты
-                center: [55.75399399999374,37.62209300000001],
+                center: coord,
                 // Масштаб карты
                 zoom: 13,
                 // Выключаем все управление картой
@@ -42,9 +44,7 @@
 
             // Указываем координаты метки
 
-            hint = "Место"
-
-            myGeoObjects = new ymaps.Placemark([55.75399399999374,37.62209300000001],{
+            myGeoObjects = new ymaps.Placemark(coord, {
                                             hintContent: '<div class="map-hint">'+hint+'</div>',
                                             balloonContent: '<div class="map-hint">'+hint+'</div>',
                                             });
@@ -70,14 +70,13 @@
         <div class="contacts_blk">
 
             <h2>Контакты</h2>
-            <p><strong>Телефон: </strong> <a href="tel:+79258212449">+7 925 821 24 49</a></p>
-            <p><strong>WhatsApp: </strong> <a href="tel:+79258212449">+7 925 821 24 49</a></p>
-            <p><strong>Telegram: </strong> <a href="tel:+79258212449">+7 925 821 24 49</a></p>
+            <p><strong>Телефон: </strong> <a href="tel:{{str_replace(['(',')',' '], '',Config::get('contact.phone'))}}">{{Config::get('contact.phone')}}</a></p>
+            <p><strong>WhatsApp: </strong> <a href="https://wa.me/{{str_replace(['(',')',' ', '+'], '',Config::get('contact.phone'))}}">{{Config::get('contact.phone')}}</a></p>
 
             <br/>
             <p><strong>Адрес:</strong></p>
             <br/>
-            <p>Москва, Ярославское шоссе, д. 19с1, офис 16</p>
+            <p>{{Config::get('contact.adress')}}</p>
 
         </div>
     </section>
