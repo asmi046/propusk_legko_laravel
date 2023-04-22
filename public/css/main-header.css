@@ -97,6 +97,25 @@ header {
     font-size: 14px;
 }
 
+
+.depart .ab_text p{
+    margin-bottom: 20px;
+}
+
+.depart .ab_text{
+    flex: 12;
+}
+
+.depart svg{
+    flex:1;
+    margin-right: 40px;
+}
+
+.depart svg path{
+    fill: white;
+}
+
+
 /*Блок с ВЫБОРОМ ТИПА ПРОПУСКА*/
 
 
@@ -739,6 +758,15 @@ header {
         left:unset;
         width: 96%;
         margin: 0 auto 20px auto;
+    }
+
+    .depart .ab_text {
+        flex: 5;
+    }
+
+    .depart svg {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
