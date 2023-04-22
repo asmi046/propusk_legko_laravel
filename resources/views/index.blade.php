@@ -45,8 +45,8 @@
             // Указываем координаты метки
 
             myGeoObjects = new ymaps.Placemark(coord, {
-                                            hintContent: '<div class="map-hint">'+hint+'</div>',
-                                            balloonContent: '<div class="map-hint">'+hint+'</div>',
+                                                hintContent: '<div class="map-hint">'+hint+'</div>',
+                                                balloonContent: '<div class="map-hint">'+hint+'</div>',
                                             });
 
             var clusterer = new ymaps.Clusterer({
