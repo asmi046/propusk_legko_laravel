@@ -258,7 +258,7 @@ header {
 }
 
 .list-info__abbr {
-    font-size: 30px;
+    font-size: 22px;
     color:#0068B5;
 }
 
@@ -266,6 +266,8 @@ header {
     padding-bottom: 20px;
     margin-bottom: 18px;
     border-bottom: 1px solid rgba(0,104,181,0.3);
+    font-size: 14px;
+    color: gray
 }
 
 /*БЛОК ПРАВИЛ ПРОЕЗДА ГРУЗОВОГО АВТО*/
@@ -427,6 +429,24 @@ header {
   }
 
 /* Иконка меню end */
+
+/* Страница 404 */
+
+.e404 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.e404 p{
+    margin: 20px 0;
+}
+
+.e404 h1{
+    font-size: 98px;
+}
+
+/* Страница 404 end */
+
 
 @media (max-width: 1480px) {
     .__container {

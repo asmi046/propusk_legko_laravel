@@ -36,13 +36,26 @@
             </div>
 
             <div class="need-document__list border_block d_flex f_col">
-            <div class="need-document__list-wrapper">
-            <img src="/img/driver_udost-img.webp" alt="Водительское удостоверение пример документа">
-            </div>
+                <div class="need-document__list-wrapper">
+                    <img src="/img/driver_udost-img.webp" alt="Водительское удостоверение пример документа">
+                </div>
+
                 <div class="need-document__list-info">
-                <p><span class="list-info__abbr">Водительское удостоверение</span></p>
-                <p class="abbr-transcript"></p>
-                <p>Необходимо отсканировать обе стороны документа</p>
+                    <p><span class="list-info__abbr">Водительское удостоверение</span></p>
+                    <p class="abbr-transcript"></p>
+                    <p>Необходимо отсканировать обе стороны документа</p>
+                </div>
+            </div>
+
+            <div class="need-document__list border_block d_flex f_col">
+                <div class="need-document__list-wrapper">
+                    <img src="/img/lizing.webp" alt="Договор лизинга">
+                </div>
+
+                <div class="need-document__list-info">
+                    <p><span class="list-info__abbr">Договор лизинга</span></p>
+                    <p class="abbr-transcript"></p>
+                    <p>Если авто в лизинге, необходимо отправить договор лизинга</p>
                 </div>
             </div>
         </div>

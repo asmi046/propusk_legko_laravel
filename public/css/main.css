@@ -253,6 +253,7 @@ align-items: center;
     border: 1px solid #D2D1D1;
     border-radius: 22px;
     box-shadow: 0 3px 3px -1px #707070;
+    overflow: hidden;
 }
 
 /* Оформление скрола */
