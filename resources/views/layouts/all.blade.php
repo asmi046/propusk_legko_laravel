@@ -34,6 +34,7 @@
         'public/css/null.css',
         'public/css/main.css',
         'public/css/main-header.css',
+        'public/js/main.js',
         'public/js/menu.js',
         'public/css/menu.css'
     ])

@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Mail;
 use App\Mail\RecollMail;
-use App\Mail\ProjectMail;
+use App\Mail\SalesMail;
+use App\Mail\BuyMail;
 
 class SenderController extends Controller
 {
@@ -17,6 +18,7 @@ class SenderController extends Controller
 
         if($arr_chat) {
 
+            $output = "";
             $arr_chat = explode(",",$arr_chat);
             $ch = curl_init();
 
@@ -36,24 +38,59 @@ class SenderController extends Controller
                     )
                 );
 
-                $output = curl_exec($ch);
+                $output .= curl_exec($ch);
             }
         }
+
+        return $output;
     }
 
-    public function send_project(Request $request) {
+    public function send_salses(Request $request) {
 
         $data = $request->validate([
-            "title" => ['string'],
             "name" => [],
             "phone" => ['required','string'],
-            "file" => []
+            "truck_count" => ['required','string']
         ]);
 
+        $content_tg = "<b>Запрос на скидку:</b>\n\r";
+        $content_tg .= "Имя: ".$request->get("name")."\n\r";
+        $content_tg .= "Телефон: ".$request->get("phone")."\n\r";
+        $content_tg .= "Количество грузовиков: ".$request->get("truck_count")."\n\r";
 
-        Mail::to(["asmi046@gmail.com"])->send(new ProjectMail($data));
+        $tt = $this->send_tg("$content_tg");
 
-        return ["Сообщение отправлено"];
+        // dd($tt);
+
+        Mail::to(["asmi046@gmail.com"])->send(new SalesMail($data));
+
+        return view('thencs');
+    }
+
+    public function send_pay(Request $request) {
+
+        $data = $request->validate([
+            "name" => [],
+            "phone" => ['required','string'],
+            "zone" => ['required','string'],
+            "day_time" => ['required','string'],
+            "diurnal_pass" => ['required','string'],
+        ]);
+
+        $content_tg = "<b>Заказ пропуска:</b>\n\r";
+        $content_tg .= "Имя: ".$request->get("name")."\n\r";
+        $content_tg .= "Телефон: ".$request->get("phone")."\n\r";
+        $content_tg .= "Тип пропуска: ".$request->get("diurnal_pass")."\n\r";
+        $content_tg .= "Пропуск на: ".$request->get("zone")."\n\r";
+        $content_tg .= "Период: ".$request->get("day_time")."\n\r";
+
+        $tt = $this->send_tg("$content_tg");
+
+        // dd($tt);
+
+        Mail::to(["asmi046@gmail.com"])->send(new BuyMail($data));
+
+        return view('thencs');
     }
 
     public function send_consultation(Request $request) {
@@ -62,7 +99,7 @@ class SenderController extends Controller
             "phone" => ['required','string']
         ]);
 
-        $content_tg = "<b>Новое сообщение с сайта:</b><br/>";
+        $content_tg = "<b>Новое сообщение с сайта:</b>\n\r";
         $content_tg .= "Имя: ".$request->get("name")."\n\r";
         $content_tg .= "Телефон: ".$request->get("phone")."\n\r";
 
@@ -75,5 +112,9 @@ class SenderController extends Controller
 
     public function show_thencs() {
         return view('thencs');
+    }
+
+    public function show_buy() {
+        return view('buy');
     }
 }

@@ -199,6 +199,8 @@ header {
 
 }
 
+input[type=text],
+input[type=tel],
 .discount-personal input:not(:last-child) {
     background-color: #ffff;
     color: #161615;
@@ -312,7 +314,8 @@ header {
 /*Блок наши преимущества*/
 
 .advantages-info__list {
-    flex: 1;
+    width:100%;
+    margin-bottom: 20px;
 }
 
 .advantages-info {
@@ -347,7 +350,7 @@ header {
 .list-text {
     background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
     height: 117px;
-    width:79%;
+    width:93%;
     line-height: 1.1;
     padding: 10px 20px 10px 60px;
     margin-left: -50px;
@@ -466,6 +469,9 @@ header {
 
 /* Страница 404 end */
 
+.buy_form {
+    width:50%;
+}
 
 @media (max-width: 1480px) {
     .__container {
@@ -767,6 +773,10 @@ header {
     .depart svg {
         margin-right: 20px;
         margin-left: 20px;
+    }
+
+    .buy_form {
+        width:100%;
     }
 }
 

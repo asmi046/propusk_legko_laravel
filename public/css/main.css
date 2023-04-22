@@ -61,6 +61,8 @@ h2 {
     padding: 10px 0;
 }
 
+input {outline:none;}
+
 /*Ссылки*/
 
 a {
@@ -179,6 +181,10 @@ align-items: center;
 }
 .m_b_22 {
     margin-bottom: 22px;
+}
+
+.m_t_22 {
+    margin-top: 22px;
 }
 
 .p_y_20 {

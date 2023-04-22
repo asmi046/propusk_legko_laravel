@@ -13,7 +13,7 @@ use Illuminate\Mail\Mailables\Address;
 
 use Illuminate\Mail\Mailables\Attachment;
 
-class ProjectMail extends Mailable
+class SalesMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -38,8 +38,8 @@ class ProjectMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address("asmi-work046@yandex.ru", "Karta-sveta"),
-            subject: $this->formData["title"],
+            from: new Address("asmi-work046@yandex.ru", "Пропуск ЛЕГКО"),
+            subject: "Запрос на скидку",
         );
     }
 
@@ -51,7 +51,7 @@ class ProjectMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'mail.project',
+            view: 'mail.sales',
         );
     }
 
@@ -62,9 +62,6 @@ class ProjectMail extends Mailable
      */
     public function attachments()
     {
-        return [
-            Attachment::fromPath($this->formData["file"] )
-            ->as($this->formData["file"]->getClientOriginalName())
-        ];
+        return [];
     }
 }

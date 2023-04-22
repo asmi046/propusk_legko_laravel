@@ -3,9 +3,9 @@
         <h2>Выберите тип пропуска</h2>
         <div class="type-category d_flex f_col f_gap_35">
             <div class="category-pass d_flex f_gap_25">
-                <a href="#" class="btn-common active">Дневной</a>
-                <a href="#" class="btn-common ">Ночной</a>
-                <a href="#" class="btn-common">Круглосуточный</a>
+                <a href="#" class="day_zone_select btn-common active">Дневной</a>
+                <a href="#" class="day_zone_select btn-common ">Ночной</a>
+                <a href="#" class="day_zone_select btn-common">Круглосуточный</a>
             </div>
 
             <div class="category-card d_flex jc_sb f_gap_40">
