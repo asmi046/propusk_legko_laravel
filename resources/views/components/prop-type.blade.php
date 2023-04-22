@@ -1,6 +1,6 @@
 <div class="category-card__list border_block d_flex f_col">
 
-    <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">СК</span></p>
+    <p class="category-card__list-day">Дневной пропуск на <span class="card__list-abbr">{{$type}}</span></p>
     <hr class="gradient">
 
     <form action="#" class="d_flex f_col f_gap_25">

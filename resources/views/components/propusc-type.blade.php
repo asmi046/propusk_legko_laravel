@@ -9,9 +9,12 @@
             </div>
 
             <div class="category-card d_flex jc_sb f_gap_40">
-                @for ($i=0; $i<3; $i++)
-                    <x-prop-type></x-prop-type>
-                @endfor
+
+
+                <x-prop-type type="МКАД"></x-prop-type>
+                <x-prop-type type="ТТК"></x-prop-type>
+                <x-prop-type type="СК"></x-prop-type>
+
             </div>
 
         </div>
