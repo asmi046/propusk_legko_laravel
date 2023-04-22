@@ -16,7 +16,7 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <input type="hidden" name="truck_count" id="truck_count" value="От 5 автомобилей">
-                        <input name="name" type="text" placeholder="Введите номер авто" value="">
+                        <input name="name" type="text" placeholder="Имя" value="">
                         <input name="phone" required type="tel" placeholder="+ 7 (___) ___ __ __" value="">
                         <input type="submit" value="Отправить" class="btn">
                     </form>

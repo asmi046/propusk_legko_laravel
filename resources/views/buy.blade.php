@@ -29,7 +29,7 @@
                 <input type="hidden" name="diurnal_pass" value="{{ request()->diurnal_pass}}">
                 <input type="hidden" name="zone" value="{{ request()->zone}}">
                 <input type="hidden" name="day_time" value="{{ request()->day_time}}">
-                <input name="name" type="text" placeholder="Введите номер авто" value="">
+                <input name="name" type="text" placeholder="Имя" value="">
                 <input name="phone" required type="tel" placeholder="+ 7 (___) ___ __ __" value="">
                 <input type="submit" value="Отправить" class="btn">
             </form>

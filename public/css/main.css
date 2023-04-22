@@ -209,9 +209,13 @@ align-items: center;
 
 /* Кнопка для ссылок*/
 
+.gradient_red {
+
+    background: linear-gradient(to left, #ff0024 5%, #EE3F58 100%);
+}
 
 .btn {
-    background: linear-gradient(to left, rgb(0, 104, 181) 5%, rgb(0, 154, 219) 100%);
+
     color: white;
     font-size: 21px;
     padding: 7px 25px;
