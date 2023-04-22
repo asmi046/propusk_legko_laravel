@@ -1,11 +1,11 @@
-<section class="necessary-document m_b_40">
+<section  id="docs" class="necessary-document m_b_40">
     <div class="__container">
         <h2>Список необходимых документов</h2>
         <div class="need-document d_flex f_gap_30">
             <div class="need-document__list border_block d_flex f_col">
                 <div class="need-document__list-wrapper">
                 <img src="/img/pts-img.webp" alt="ПТС пример документа">
-                </div> 
+                </div>
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">ПТС</span></p>
                 <p class="abbr-transcript">Паспорт технического средства</p>
@@ -38,7 +38,7 @@
             <div class="need-document__list border_block d_flex f_col">
             <div class="need-document__list-wrapper">
             <img src="/img/driver_udost-img.webp" alt="Водительское удостоверение пример документа">
-            </div>           
+            </div>
                 <div class="need-document__list-info">
                 <p><span class="list-info__abbr">Водительское удостоверение</span></p>
                 <p class="abbr-transcript"></p>

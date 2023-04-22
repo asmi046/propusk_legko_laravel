@@ -1,15 +1,15 @@
 <li class="menu-list">
-    <a href="#" class="list-items">О нас</a>
+    <a href="#check" class="list-items">Проверить</a>
 </li>
 <li class="menu-list">
-    <a href="#" class="list-items">Услуги</a>
+    <a href="#pay" class="list-items">Заказать</a>
 </li>
 <li class="menu-list">
-    <a href="#" class="list-items">Выбрать массу</a>
+    <a href="#docs" class="list-items">Документы</a>
 </li>
 <li class="menu-list">
-    <a href="#" class="list-items">Выбрать зону</a>
+    <a href="#rules" class="list-items">Правила</a>
 </li>
 <li class="menu-list">
-    <a href="#" class="list-items">Контакты</a>
+    <a href="#contacts" class="list-items">Контакты</a>
 </li>

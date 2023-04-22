@@ -1,4 +1,4 @@
-<section class="driving-rules m_b_40">
+<section id="rules" class="driving-rules m_b_40">
     <div class="__container">
         <h2>Правила проезда грузового транспорта на<br> территорию Москвы и области</h2>
         <div class="rules-block d_flex jc_sb">

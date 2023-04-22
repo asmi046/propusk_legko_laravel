@@ -67,7 +67,7 @@
     </script>
 
     <section id="map">
-        <div class="contacts_blk">
+        <div id="contacts" class=" contacts_blk">
 
             <h2>Контакты</h2>
             <p><strong>Телефон: </strong> <a href="tel:{{str_replace(['(',')',' '], '',Config::get('contact.phone'))}}">{{Config::get('contact.phone')}}</a></p>

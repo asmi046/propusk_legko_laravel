@@ -153,6 +153,10 @@ align-items: center;
 }
 
 
+.f_gap_20 {
+    gap: 20px;
+}
+
 .f_gap_25 {
     gap: 25px;
 }
@@ -250,3 +254,17 @@ align-items: center;
     border-radius: 22px;
     box-shadow: 0 3px 3px -1px #707070;
 }
+
+/* Оформление скрола */
+
+::-webkit-scrollbar {
+    overflow-y: scroll;
+    width: 7px;
+    background-color: #f9f9fd;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: grey;
+  }
+
+/* Оформление скрола end */

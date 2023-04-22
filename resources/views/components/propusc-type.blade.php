@@ -1,4 +1,4 @@
-<section class="type-pass m_b_40">
+<section  id="pay" class="type-pass m_b_40">
     <div class="__container">
         <h2>Выберите тип пропуска</h2>
         <div class="type-category d_flex f_col f_gap_35">

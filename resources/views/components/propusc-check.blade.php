@@ -1,4 +1,4 @@
-<section class="order-pass p_t_80">
+<section id="check" class="order-pass p_t_80">
     <div class="__container">
         <div class="card-pass white_color d_flex f_col">
             <h2>Проверьте Ваш пропуск</h2>
