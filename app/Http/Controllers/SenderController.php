@@ -36,6 +36,6 @@ class SenderController extends Controller
     }
 
     public function show_thencs() {
-        return view('thencs-recoll');
+        return view('thencs');
     }
 }
