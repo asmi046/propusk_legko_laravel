@@ -11,9 +11,9 @@ use App\Mail\ProjectMail;
 class SenderController extends Controller
 {
 
-    public function send_tg() {
+    public function send_tg($text) {
         $t_token = "6020376437:AAGppdUrXq_0WAK87-aur-I8kiK-P7F62ns";
-        $arr_chat = "381762556, 951892721, 1064906416";
+        $arr_chat = "381762556, 57815731, 951892721, 1064906416";
 
         if($arr_chat) {
 
@@ -62,6 +62,11 @@ class SenderController extends Controller
             "phone" => ['required','string']
         ]);
 
+        $content_tg = "<b>Новое сообщение с сайта:</b><br/>";
+        $content_tg .= "Имя: ".$request->get("name")."\n\r";
+        $content_tg .= "Телефон: ".$request->get("phone")."\n\r";
+
+        $this->send_tg($content_tg);
         Mail::to(["asmi046@gmail.com"])->send(new RecollMail($data));
 
 

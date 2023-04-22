@@ -16,7 +16,7 @@
         <modal-window rout="/send_consult" redirect="/thencs" hesh="recollMsg" title="Заказ обратного звонка" subtitle="Оставьте контактные данные и наши специалисты помогут оформить пропуск" ></modal-window>
     </div>
     <x-menu></x-menu>
-    <x-banner></x-banner>
+    <x-banner-thancs></x-banner-thancs>
     <x-propusc-check></x-propusc-check>
 
     <x-rules></x-rules>
