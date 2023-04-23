@@ -49,6 +49,6 @@
         <p><strong>Адрес:</strong></p>
         <br/>
         <p>{{Config::get('contact.adress')}}</p>
-
+        <a href="#recollMsg" class="btn m_t_22">Получить консультацию</a>
     </div>
 </section>

@@ -10,7 +10,11 @@
             </ul>
         </div>
         <div class="header-call d_flex f_a_center f_gap_40">
-            <a href="tel:{{str_replace(['(',')',' '], '',Config::get('contact.phone'))}}" class="call-number blue_color">{{Config::get('contact.phone')}}</a>
+            <div class="header-call-phone d_flex f_col">
+                <a href="tel:{{str_replace(['(',')',' '], '',Config::get('contact.phone'))}}" class="call-number blue_color">{{Config::get('contact.phone')}}</a>
+                <a class="blue_color" href="mailto:info@propusklegko.ru">info@propusklegko.ru</a>
+            </div>
+
             <a href="#recollMsg" class="btn">Позвоните мне</a>
         </div>
 

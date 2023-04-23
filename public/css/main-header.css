@@ -17,12 +17,17 @@ header {
     z-index: 10000;
 }
 
+.header-call-phone {
+    line-height: 1.2;
+    text-align: right;
+}
+
 .header-logo {
     width:170px;
 }
 
 .call-number {
-    font-size: 31px;
+    font-size: 26px;
 }
 
 /* Мейн блок*/
@@ -371,14 +376,14 @@ input[type=tel],
 }
 
 #map {
-    height: 350px;
+    height: 450px;
     position: relative;
 }
 
 
 .contacts_blk {
-    width:300px;
-    height: 300px;
+    width:400px;
+    height: 350px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
@@ -585,6 +590,10 @@ input[type=tel],
 
     .get-pass__info-card p {
         max-width: 300px;
+    }
+
+    .header-call-phone {
+        text-align: center;
     }
 }
 
