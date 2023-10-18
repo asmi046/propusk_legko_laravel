@@ -17,7 +17,7 @@
     <x-menu></x-menu>
     <x-banner></x-banner>
     <x-propusc-check></x-propusc-check>
-    <x-propusc-type></x-propusc-type>
+    {{-- <x-propusc-type></x-propusc-type> --}}
     <x-sales></x-sales>
     <x-advantages></x-advantages>
     <x-rules></x-rules>
