@@ -1,5 +1,6 @@
 <section id="check" class="order-pass p_t_80">
     <div class="__container">
+        <h1 style="color:red; margin-top: 0;">У нас самая низкая стоимость!</h1>
         <div class="card-pass white_color d_flex f_col">
             <h2>Проверьте Ваш пропуск</h2>
 
