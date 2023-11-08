@@ -4,9 +4,9 @@
             <p class="m_b_40">Оставьте заявку и наши менеджеры предложат Вам оптимальные условия сотрудничества</p>
             <div class="discount-info d_flex f_col f_gap_35">
                 <div class="discount-choice__list d_flex f_gap_25">
-                    <a href="#" class="sales_btn btn-common btn-active">От 5 автомобилей</a>
+                    <a href="#" class="sales_btn btn-common btn-active">От 1 автомобиля</a>
+                    <a href="#" class="sales_btn btn-common">От 5 автомобилей</a>
                     <a href="#" class="sales_btn btn-common">От 10 автомобилей</a>
-                    <a href="#" class="sales_btn btn-common">От 15 автомобилей</a>
                 </div>
 
                 <div class="discount-personal">
