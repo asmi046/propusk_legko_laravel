@@ -62,7 +62,7 @@ class SenderController extends Controller
 
         // dd($tt);
 
-        Mail::to(["asmi046@gmail.com"])->send(new SalesMail($data));
+        // Mail::to(["asmi046@gmail.com"])->send(new SalesMail($data));
 
         return view('thencs');
     }
@@ -104,7 +104,7 @@ class SenderController extends Controller
         $content_tg .= "Телефон: ".$request->get("phone")."\n\r";
 
         $this->send_tg($content_tg);
-        Mail::to(["asmi046@gmail.com"])->send(new RecollMail($data));
+        // Mail::to(["asmi046@gmail.com"])->send(new RecollMail($data));
 
 
         return ["Сообщение отправлено"];
