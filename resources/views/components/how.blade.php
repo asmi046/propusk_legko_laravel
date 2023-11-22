@@ -1,7 +1,7 @@
 <section class="get-pass m_b_40">
     <div class="__container">
         <div class="howToGet-pass gray_bg">
-            <h2>Как получить пропуск</h2>
+            <h2>Как получить услугу</h2>
             <div class="get-pass__info d_flex jc_sb">
 
                 <div class="get-pass__info-card">
