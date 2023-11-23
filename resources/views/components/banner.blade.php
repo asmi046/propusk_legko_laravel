@@ -10,6 +10,6 @@
         <p><strong>Оплата после получения пропуска!</strong></p>
         <p><strong>Гарантия от аннуляции!</strong></p>
         <br>
-        <a href="#consultMsg" class="btn max_w_256">Получить консультацию</a>
+        <a href="#consultMsg" class="btn max_w_320">Получить консультацию</a>
     </div>
 </section>
