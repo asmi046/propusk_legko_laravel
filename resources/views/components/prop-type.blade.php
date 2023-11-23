@@ -19,6 +19,6 @@
             </div>
         </label>
 
-        <input type="submit" value="Заказать пропуск" class="btn max_w_256">
+        <input type="submit" value="Получить консультацию" class="btn max_w_256">
     </form>
 </div>

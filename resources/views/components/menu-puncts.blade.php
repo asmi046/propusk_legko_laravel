@@ -2,7 +2,7 @@
     <a href="#check" class="list-items">Проверить</a>
 </li>
 <li class="menu-list">
-    <a href="#pay" class="list-items">Заказать</a>
+    <a href="#pay" class="list-items">Получить консультацию</a>
 </li>
 <li class="menu-list">
     <a href="#docs" class="list-items">Документы</a>
